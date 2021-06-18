@@ -1,82 +1,136 @@
 *{
     margin:0px;
     padding:0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-h1{
-    color:#1d1b1b;
-    text-align: center;
+
+#header{
+    width:100%;
+    background-color: rgb(226, 166, 110);
+    height:25vh;
+    text-align: center
+     
 }
 main{
-    background-color: #BEEEFF;
-    
-    height:40vh;
-
+    background-color: #ecf3f5;
+    height:130vh;
 }
-#header{
-    
-    width:100%;
-    background-color: rgb(88, 88, 206);
-    height:25%;
-    
-}
-#footer{
-    
-    width:100%;
-    background-color: rgb(190, 98, 75);
-    height:25%;
-    font-size: 20px;
-}
-#subscribe{
-    width:120px;
-    background-color: rgb(190, 98, 75);
-    height:25%;
-    font-size: 20px;
-    border:2px solid black;
+.section-title{
+    font-size: 28px;
     text-align: center;
-   
+    height:10vh;
+}
 
-    
-}
-#subscribe:hover{
-    background-color:rgb(220,120,120);
-    color:grey;
-}
 .menu{
-    height:95vh;
-	width:95vw;
-	border: 3px solid purple;
+    height:115vh;
+	width:96vw;
+	border: 3px solid rgb(69, 63, 82);
 	margin:auto;
 	padding:10px;
 	overflow-y:hidden;
 }
-.top-menu, .mid-menu,{
-    width:99%;
+.top-menu, .mid-menu, .bot-menu{
+    width:100%;
 	text-align: center;
 }
 .menu-item{
-	height:190px;
+	height:230px;
 	width:31.5%;
 	display:inline-block;
 	padding:2px;
+    margin:2px;
+    background-color: rgb(144, 144, 230);
+    text-align: center;
+
 }
 .menu-item:hover{
 	opacity: 75%;
 }
 #item-one{
-
+    background-image: url("../images/smithrock.jpg");
+	background-size:cover;
+	background-position:center;
+    color:white;
+    text-align: right;
 }
 #item-two{
-    
+    background-image: url("../images/wildwood.jpg");
+	background-size:cover;
+	background-position:center;
 }
 #item-three{
-    
+    background-image: url("../images/drt.jpg");
+	background-size:cover;
+	background-position:center;
+    color:white;
 }
 #item-four{
-    
+    background-image: url("../images/horse.jpg");
+	background-size:cover;
+	background-position:center;
 }
 #item-five{
-    
+    background-image: url("../images/skyline.jpg");
+	background-size:cover;
+	background-position:center;
 }
 #item-six{
+    background-image: url("../images/elkhorn.jpg");
+	background-size:cover;
+	background-position:center;  
+    text-align: left;
+}
+#item-seven{
+    background-image: url();
+	background-size:cover;
+	background-position:center;
+}
+#item-eight{
+    background-image: url("../images/timber.jpg");
+	background-size:cover;
+	background-position:center;
+    color:white;
+}
+#item-nine{
+    background-image: url();
+	background-size:cover;
+	background-position:center;
+}
+#contact{
+    display: block;
+    align-items: center;
+    width:100%;
+    background-color: rgb(190, 98, 75);
+    height:45%;
+    font-size: 20px;
+    padding:10px;
+}
+.name-box{
+ height: 30px;
+ width:190px;
+}
+.email-box{
+    height: 30px;
+    width:190px;
+}
+.message-box{
+    height: 150px;
+    width:300px;
     
+}
+button{
+    width: 90px;
+    height:24px;
+}
+.icons{
+    font-size: 45px;
+    margin:25px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.elementor-grid-item{
+height:30px;
+ width:30px;
 }
