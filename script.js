@@ -1,5 +1,5 @@
 
-const headerOne = document.getElementsByClassName('a.jump');
+const headerOne = document.querySelector('h5')
 
 headerOne.style.color = 'black';
-headerOne.innerHTML = "Take me to the top";
+headerOne.innerText = "Follow us to see more fun routes in Oregon!";
