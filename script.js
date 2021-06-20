@@ -7,4 +7,4 @@ introHello("Troy", 26);
 function calcArea(width, length){
     console.log( length * width);
 }
-calcArea;
+calcArea(4*6);
