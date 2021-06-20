@@ -1,2 +1,3 @@
 
-const headerOne = document.querySelector('h1')
+const headerOne = document.getElementsByClassName('icons');
+
