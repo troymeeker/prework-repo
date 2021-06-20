@@ -1,4 +1,5 @@
 
-const headerOne = document.getElementsByClassName('icons');
+const headerOne = document.getElementsByClassName('a.jump');
 
-headerOne.style.color = "black";
+headerOne.style.color = 'black';
+headerOne.innerHTML = "Take me to the top";
