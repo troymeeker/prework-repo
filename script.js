@@ -1,4 +1,5 @@
-function sayHello(name){
-    alert("Hello and welcome" + name)
+
+function introHello(name){
+ console.log('My name is ' + name + 'and I am ' + age + ' years old');
 }
-sayHello(user);
+introHello("Troy", 26);
