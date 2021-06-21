@@ -55,38 +55,38 @@ main{
 	opacity: 75%;
 }
 #item-one{
-    background-image: url("../images/smithrock.jpg");
+    background-image: url("images/smithrock.jpg");
 	background-size:cover;
 	background-position:center;
     color:white;
     text-align: right;
 }
 #item-two{
-    background-image: url("../images/wildwood.jpg");
+    background-image: url("images/wildwood.jpg");
 	background-size:cover;
 	background-position:center;
     color:black;
 }
 #item-three{
-    background-image: url("../images/drt.jpg");
+    background-image: url("images/drt.jpg");
 	background-size:cover;
 	background-position:center;
     color:white;
 }
 #item-four{
-    background-image: url("../images/horse.jpg");
+    background-image: url("images/horse.jpg");
 	background-size:cover;
 	background-position:center;
     color:black;
 }
 #item-five{
-    background-image: url("../images/skyline.jpg");
+    background-image: url("images/skyline.jpg");
 	background-size:cover;
 	background-position:center;
     color:black;
 }
 #item-six{
-    background-image: url("../images/elkhorn.jpg");
+    background-image: url("images/elkhorn.jpg");
 	background-size:cover;
 	background-position:center;  
     text-align: left;
