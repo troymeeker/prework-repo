@@ -42,8 +42,8 @@ main{
 	text-align: center;
 }
 .menu-item{
-	height:230px;
-	width:31.5%;
+	height:30vh;
+    width:30vw;
 	display:inline-block;
 	padding:2px;
     margin:3px;
@@ -55,8 +55,10 @@ main{
 	opacity: 75%;
 }
 #item-one{
-	background-size:cover;
+    background-image: url("images/smithrock.jpg");
+    background-size: cover;
 	background-position:center;
+    background-repeat: no-repeat;
     color:white;
     text-align: right;
 }
