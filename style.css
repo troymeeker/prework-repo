@@ -55,7 +55,6 @@ main{
 	opacity: 75%;
 }
 #item-one{
-    background-image: url("images/smithrock.jpg");
 	background-size:cover;
 	background-position:center;
     color:white;
