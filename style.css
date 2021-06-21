@@ -56,9 +56,8 @@ main{
 }
 #item-one{
     background-image: url("images/smithrock.jpg");
-    background-size: contain;
+    background-size: cover;
 	background-position:center;
-    background-repeat: no-repeat;
     color:white;
     text-align: right;
 }
