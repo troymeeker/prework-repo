@@ -9,3 +9,11 @@ const itemFive = document.getElementById('item-five');
 
 const itemTwo = document.getElementById('item-two');
 itemTwo.innerText = "Forest Park/ Wildwood Trail - Portland"
+
+const background = document.getElementById('header');
+document.getElementsById('menu-item').onclick = () => {
+
+    background.style.color = 'brown';
+  
+};
+
