@@ -10,10 +10,14 @@ const itemFive = document.getElementById('item-five');
 const itemTwo = document.getElementById('item-two');
 itemTwo.innerText = "Forest Park/ Wildwood Trail - Portland"
 
-const background = document.getElementById('header');
-document.getElementsById('menu-item').onclick = () => {
+ document.getElementById('color').onclick = function(){
+ 
+    document.getElementById('contact').style.color = 'white';
+    document.getElementById('header').style.backgroundColor = 'brown';
+    document.getElementById('contact').style.backgroundColor = 'grey';
+    document.getElementById('header').style.color = 'gold';
+    document.querySelector('main').style.backgroundColor = 'orange';
+ };
 
-    background.style.color = 'brown';
-  
-};
+
 
